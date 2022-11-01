@@ -1,4 +1,5 @@
-# TestNCC_Question1
+# TestNCC_Frontend_Question1
+Hoàng Công Thành Nhân
 
 ![screencapture-127-0-0-1-5173-2022-11-01-22_47_57](https://user-images.githubusercontent.com/95177300/199276779-bb7ac32d-2fb7-4870-8716-e2a3fe40ddae.png)
 
