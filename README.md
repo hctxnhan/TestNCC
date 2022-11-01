@@ -1,6 +1,6 @@
 # TestNCC_Frontend_Question1
 
-##Hoàng Công Thành Nhân
+## Hoàng Công Thành Nhân
 
 Đã deploy lên netlify, anh/chị có thể dùng link này để có thể kiểm tra nhanh hơn.
 https://ncctest-thanhnhan.netlify.app/
