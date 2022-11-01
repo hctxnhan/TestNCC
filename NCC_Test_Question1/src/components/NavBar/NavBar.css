@@ -1,0 +1,77 @@
+.navbar__list {
+  list-style-type: none;
+}
+.navbar__item {
+  color: white;
+  padding: 14px 16px;
+  color: #aaaaaa;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  border-bottom: 1px solid #5c5c5c;
+  transition: all 0.08s linear;
+}
+
+.navbar__item:hover {
+  color: #ffffff;
+  background-color: #5c5c5c;
+}
+
+.navbar__item--active {
+  color: #ffffff;
+}
+
+.navbar-mobile {
+  display: none;
+  height: 50px;
+  position: relative;
+}
+
+.navbar-mobile__icon {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+}
+
+.navbar-mobile__list {
+  position: absolute;
+  top: 100%;
+  background-color: #191718;
+  left: 0;
+  right: 0;
+
+  display: none;
+}
+
+#menuIconCheckbox {
+  display: none;
+}
+
+#menuIconCheckbox:checked ~ .navbar-mobile__list {
+  display: block;
+}
+
+.navbar__item--mobile {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 1160px) {
+  .navbar__list {
+    display: flex;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .navbar-mobile {
+    display: flex;
+  }
+
+  .navbar__list {
+    display: none;
+  }
+}

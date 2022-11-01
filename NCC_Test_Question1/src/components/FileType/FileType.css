@@ -1,0 +1,20 @@
+.filetype__image {
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+  object-position: center;
+  float: left;
+  margin-right: 16px;
+}
+
+.filetype__title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+
+.filetype__content {
+  line-height: 1.2;
+  align-content: center;
+}

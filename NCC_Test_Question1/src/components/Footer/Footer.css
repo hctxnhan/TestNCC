@@ -1,0 +1,26 @@
+.footer {
+  padding: 30px 130px;
+  border-top: 1px solid rgb(234, 234, 234);
+}
+
+.footer__text {
+  color: #3e3e3e;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 20px 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    padding: 16px 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footer {
+    padding: 20px 10px;
+  }
+}
